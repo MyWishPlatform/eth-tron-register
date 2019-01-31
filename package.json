@@ -1,0 +1,21 @@
+{
+  "name": "eth-tron-register",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.0.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.1.0"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "Nikolay Toporkov"
+}
